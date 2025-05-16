@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>NYC Attractions Map</name>
+    <description><![CDATA[This map lists the best NYC attractions and points of interest, including free, family-friendly, nighttime and neighborhood-specific attractions.<br><br>We also list each location with more details here https://freetoursbyfoot.com/nyc-tourist-attractions/. ]]></description>
+    <Style id="icon-seq2-0-0-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-0-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-0-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-0-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-0-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-1-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-1-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-1-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-1-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-1-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-10-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-10-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-10-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-10-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-10-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-11-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-11-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-11-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-11-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-11-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-12-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-12-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-12-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-12-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-12-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-13-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-13-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-13-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-13-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-13-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-14-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-14-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-14-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-14-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-14-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-15-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-15-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-15-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-15-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-15-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-16-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-16-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-16-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-16-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-16-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-17-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-17-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-17-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-17-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-17-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-18-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-18-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-18-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-18-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-18-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-19-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-19-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-19-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-19-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-19-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-2-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-2-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-2-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-2-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-2-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-20-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-20-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-20-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-20-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-20-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-21-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-21-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-21-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-21-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-21-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-22-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-23.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-22-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-23.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-22-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-22-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-22-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-23-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-24.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-23-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-24.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-23-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-23-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-23-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-24-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-25.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-0-24-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-25.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-24-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-24-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-24-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-25-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-26.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-25-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-26.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-25-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-25-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-25-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-26-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-27.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-26-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-27.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-26-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-26-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-26-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-27-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-28.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-27-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-28.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-27-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-27-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-27-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-3-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-3-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-3-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-3-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-3-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-4-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-4-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-4-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-4-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-4-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-5-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-5-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-5-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-5-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-5-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-6-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-6-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-6-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-6-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-6-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-7-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-7-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-7-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-7-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-7-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-8-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-8-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-8-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-8-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-8-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-0-9-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-0-9-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-0-9-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-0-9-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-0-9-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-0-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-0-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-0-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-0-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-0-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-1-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-1-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-1-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-1-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-1-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-10-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-10-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-11.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-10-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-10-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-10-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-11-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-11-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-12.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-11-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-11-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-11-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-12-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-12-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-13.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-12-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-12-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-12-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-13-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-13-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-14.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-13-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-13-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-13-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-14-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-14-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-15.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-14-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-14-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-14-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-15-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-15-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-16.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-15-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-15-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-15-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-16-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-16-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-17.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-16-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-16-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-16-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-17-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-17-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-18.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-17-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-17-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-17-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-18-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-18-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-19.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-18-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-18-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-18-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-19-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-19-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-20.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-19-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-19-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-19-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-2-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-2-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-2-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-2-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-2-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-20-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-20-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-21.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-20-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-20-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-20-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-21-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-21-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-22.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-21-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-21-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-21-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-3-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-1-3-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-3-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-3-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-3-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-4-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-1-4-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-4-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-4-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-4-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-5-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-1-5-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-6.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-5-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-5-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-5-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-6-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-1-6-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-7.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-6-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-6-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-6-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-7-0288D1-nodesc-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-seq2-1-7-0288D1-nodesc-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-8.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-7-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-7-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-7-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-8-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-8-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-9.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-8-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-8-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-8-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-seq2-1-9-0288D1-normal">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-seq2-1-9-0288D1-highlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>images/icon-10.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-seq2-1-9-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-seq2-1-9-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-seq2-1-9-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Free NYC Attractions</name>
+      <Placemark>
+        <name>Staten Island Ferry Whitehall Terminal </name>
+        <description><![CDATA[This post is a guide to taking the Staten Island Ferry, a free ferry. We share insider tips such as the best time to take the ferry and where to stand for the best views of the Statue of Liberty and Lower Manhattan. This is #2 on our top 10 free things to do in NYC. https://freetoursbyfoot.com/staten-island-ferry/?utm_source=NYCAttractionsMapSIFerry&utm_medium=referral.]]></description>
+        <styleUrl>#icon-seq2-0-0-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0131497,40.7013948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>National Museum of the American Indian</name>
+        <description><![CDATA[The National Museum of the American Indian was a private collection of Native American artifacts — actually the collection was the largest in the world with more than 800,000 artifacts — before it was transferred to the Smithsonian in 1989. The museum has two branches, in Washington, DC, and New York, NY, and a collections facility in Suitland, MD. https://freetoursbyfoot.com/national-museum-of-the-american-indian-new-york/?utm_source=NYCAttractionsMapAmericanIndian&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-1-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0136897,40.7040058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Charging Bull</name>
+        <description><![CDATA[This post is about how to find the Wall Street Bull, officially known as the Charging Bull, the popular bronze statue and financial icon, along with a brief history of the Bull and the Fearless Girl Statue.” https://freetoursbyfoot.com/wall-street-bull/?utm_source=NYCAttractionsMapCharginBull&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-2-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0134436,40.7055537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trinity Church</name>
+        <description><![CDATA[https://freetoursbyfoot.com/trinity-church-new-york/?utm_source=NYCAttractionsMapTrinityChurch&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-3-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0121849,40.7080624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Federal Hall</name>
+        <description><![CDATA[The corner of Wall Street and Nassau street has been the site of government activity and played a prominent place in American history for more than 300 years. So many significant events of early America occurred at the buildings that have stood at this location including the first stirrings of pre-Revolution discontent and the post-Revolution formation of our federal government. This was the site of George Washington’s inauguration and the place where the Bill of Rights was officially passed. Though the original building that served as the nation’s first capitol is gone, the current grandiose Federal Hall building serves as a national memorial to the events that occurred here.  https://freetoursbyfoot.com/federal-hall-national-memorial-nyc/?utm_source=NYCAttractionsMapFederalHall&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-4-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0102088,40.7073993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wall St. and New York Stock Exchange</name>
+        <description><![CDATA[https://freetoursbyfoot.com/wall-street-tours/?utm_source=NYCAttractionsMapWallStreet&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-5-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0106491,40.7070646,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Federal Reserve Bank of New York</name>
+        <description><![CDATA[This post explains how to take a free tour of the Federal Reserve Building in NYC, including tips on hours, how to get here, as well as other tips to help you plan your visit. A tour of the vaults is listed among the top free things to do in NYC.  https://freetoursbyfoot.com/new-york-federal-reserve-bank-tour/?utm_source=NYCAttractionsMapCityFederalReserve&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-6-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.008653,40.7083663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>South Street Seaport Museum</name>
+        <description><![CDATA[This post is a self-guided tour will take you through the South Street Seaport area, one of the oldest and most historic neighborhoods in New York City. Much of the area is filled with restored 19th-century buildings along cobblestone streets. In 1967, the South Street Seaport Museum was founded to preserve many of the buildings, ships, monuments, and the overall historic area which has become a popular destination for visitors and locals alike.  https://freetoursbyfoot.com/south-street-seaport-new-york-city/?utm_source=NYCAttractionsMapSouthStreet&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-7-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0037097,40.7065616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brooklyn Bridge</name>
+        <description><![CDATA[Learn how to plan for walking across the Brooklyn Bridge, how to get to it, where to start, when to go, what else there is to do around the bridge. Be sure to consider our daily guided tour and our GPS-enabled audio tour of the Brooklyn Bridge.  https://freetoursbyfoot.com/walking-the-brooklyn-bridge/?utm_source=NYCAttractionsMap&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-8-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9952737,40.7047802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9/11 Memorial</name>
+        <description><![CDATA[In this post, we detail how to visit the National September 11th Memorial, also known as the 9/11 Memorial, World Trade Center Memorial, the Ground Zero Memorial, or the Twin Towers Memorial, including tours you can take, and nearby attractions you may want to see. https://freetoursbyfoot.com/visit-911-memorial-nyc/?utm_source=NYCAttractionsMap911&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-9-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0134432,40.7114743,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New York City Hall</name>
+        <description><![CDATA[New York’s City Hall, located in Lower Manhattan, is the country’s oldest city hall that is still used for its original purpose. While most of the city government offices are now housed in the big, magnificent Municipal Building, the Office of the Mayor and the City Council Chambers are still located in the City Hall building.  https://freetoursbyfoot.com/new-york-city-hall-tours/?utm_source=NYCAttractionsMapCityHallTours&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-10-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.006059,40.7127744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>African Burial Ground National Historic Monument</name>
+        <styleUrl>#icon-seq2-0-11-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0043973,40.7145049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Friends Apartment</name>
+        <description><![CDATA[This post will explain how you can find the apartment building used in the hit TV show “Friends”, which is a regular stop on the Free Tours by Foot’s Greenwich Village Tour. https://freetoursbyfoot.com/friends-apartment-building/?utm_source=NYCAttractionsMapFriends&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-12-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0053175,40.7323981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The High Line</name>
+        <description><![CDATA[This post is a visitor’s guide to the High Line, a city park on an abandoned elevated freight rail line in the middle of NYC, including tips on planning your visit. https://freetoursbyfoot.com/high-line-map/?utm_source=NYCAttractionsMapHighLine&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-13-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0047649,40.7479925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Flatiron Building</name>
+        <description><![CDATA[This post is about the Flatiron Building in NYC, including its history, how to get here, tips on the best photo spots, and nearby attractions. https://freetoursbyfoot.com/flatiron-building-new-york-city/?utm_source=NYCAttractionsMapFlatiron&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-14-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9896986,40.7410605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New York Public Library - Stephen A. Schwarzman Building</name>
+        <description><![CDATA[This post is about how to take a free tour of the New York Public Library’s main branch building, including tips on how to get here and what you will see. https://freetoursbyfoot.com/new-york-city-public-library-tours/?utm_source=NYCAttractionsMapPublicLibrary&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-15-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9822534,40.7531823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grand Central Terminal</name>
+        <description><![CDATA[This post is a guide to Grand Central Terminal and what you can see and do there, including taking a tour, enjoy some food, architecture, and of course, catch a train. We have put together this guide with a mini-tour to help familiarize you with this grand space or consider using our audio tour to guide you through the terminal. https://freetoursbyfoot.com/grand-central-terminal/?utm_source=NYCAttractionsMapGrandCentral&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-16-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9772294,40.7527262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chrysler Building</name>
+        <description><![CDATA[This post is a visitor’s guide to the Chrysler Building. We cover its history, how to get to it, and what there is to see. While it’s technically not possible to go up the Chrysler Building, as a tourist anyway, we have a secret tip on how to get a view of New York City from its top.  https://freetoursbyfoot.com/visit-the-chrysler-building/?utm_source=NYCAttractionsMapCityChrysler&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-17-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.975502,40.7516208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Times Square</name>
+        <description><![CDATA[This post covers things to do in Times Square with sections on free and night activities, shopping, restaurants, and a Times Square map and self-guided walking tour. Below you will find lots of information about Times Square so you know about all the great happenings! Be sure to check out our Things to Do in NYC for more ideas.   https://freetoursbyfoot.com/things-to-do-in-times-square/?utm_source=NYCAttractionsMapCityTimesSquare&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-18-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.985131,40.758895,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rockefeller Center</name>
+        <description><![CDATA[This post is an overview and review of guided tours of Rockefeller Center. We also included a self-guided tour that you could use to go on your own. We also provide links to other Rockefeller Center content, such as Radio City Music Hall, Top of the Rock, and the NBC Studios Tour.  https://freetoursbyfoot.com/rockefeller-center-tours/?utm_source=NYCAttractionsMapCityRockefellerCenter&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-19-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9786736,40.7587402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Late Show with Stephen Colbert</name>
+        <description><![CDATA[This post is about how to get tickets to New York TV shows. While visiting NYC, not only do you have the opportunity to see amazing sights, you can attend the live filming of some of your favorite TV shows! Saturday Night Live, Good Morning America, the Tonight Show with Jimmy Fallon and more film in New York City and offer travelers the opportunity to be a part of their studio audience.  https://freetoursbyfoot.com/new-york-tv-show-tickets/?utm_source=NYCAttractionsMapTVShows&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-20-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9828345,40.7637545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roosevelt Island Tram</name>
+        <description><![CDATA[This post is a guide to riding the Roosevelt Island Tram, which some might refer to as a cable car or gondola, including tips on where to board and when to go. And the trip costs the same as a ride on the subway.   https://freetoursbyfoot.com/roosevelt-island-tramway/?utm_source=NYCAttractionsMapCityRooseveltIslandTram&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-21-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9644135,40.7609415,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central Park</name>
+        <description><![CDATA[This post covers things to do and see in Central Park. While we offer many different guided Central Park tours, we know that many travelers prefer to explore on their own at their own pace. This self-guided tour and list of things to do in Central Park will help you make the most of your visit to this incredible New York iconic location.  https://freetoursbyfoot.com/things-to-do-in-central-park/?utm_source=NYCAttractionsMapCP&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-22-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9653551,40.7828647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Strawberry Fields</name>
+        <description><![CDATA[This post will help you located Strawberry Fields in Central Park. Strawberry Fields is located between West 71st Street and Wests 74th Street at the West 72nd Street entrance to Central Park. It has become a “must-see” for many tourists visiting New York City. Strawberry Fields is a stop on our audio tour of Central Park.  https://freetoursbyfoot.com/strawberry-fields-central-park/?utm_source=NYCAttractionsMapCityStrawberryFields&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-23-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9752147,40.7757506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Schomburg Center for Research in Black Culture</name>
+        <styleUrl>#icon-seq2-0-24-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.940926,40.8145872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gospel at the Abyssinian Baptist Church</name>
+        <description><![CDATA[This post describes how you could hear gospel music in New York, whether in Harlem, in Brooklyn or anywhere else. If this seems daunting, you might consider an organized gospel tour. We also cover several gospel churches on our pay-what-you-wish Harlem Walking Tour as well as on our audio tour of Harlem. https://freetoursbyfoot.com/where-to-hear-gospel-music-in-new-york-city/?utm_source=NYCAttractionsMapGospelAbsynnia&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-25-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9415561,40.8166821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Bushwick Collective</name>
+        <description><![CDATA[This post explains the Bushwick Collective, NYC’s most prolific neighborhood for street art and graffiti, and how to reach it. Check out our pay-what-you-like New York Graffiti and Street Art Tour (tour video below).  https://freetoursbyfoot.com/bushwick-graffiti-bushwick-collective/?utm_source=NYCAttractionsMapBushwickCollective&utm_medium=referral]]></description>
+        <styleUrl>#icon-seq2-0-26-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9217447,40.7076446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>One World Observatory</name>
+        <description><![CDATA[One World Observatory offers one of the best views of NYC.  On the 100th floor, you will be mesmerized by the 360-degree panoramic view of Manhattan, Brooklyn, and New Jersey. On a clear day, you can see about 50 miles in any direction.<br><br>You can walk over the Sky Portal, a 14-foot-wide (4 m) circular disc with screens that use real-time video feeds to simulate the view from 100 stories up. Also, live guides will introduce you to the “City Pulse” interactive skyline concierge with information about the city and its landmarks.        https://freetoursbyfoot.com/freedom-tower-tickets/#why]]></description>
+        <styleUrl>#icon-seq2-0-27-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0133677,40.7133444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>FAMILY AND FRIENDS ACTIVITIES</name>
+      <Placemark>
+        <name><![CDATA[Ripley's Believe It or Not! Times Square]]></name>
+        <description>Ripley’s Believe It or Not! covers two floors, with 20 themed galleries filled with over 500 weird, wacky and unusual objects like the world’s largest collection of shrunken heads, a lock of Elvis’s hair, a section of the Berlin Wall, and a two-headed calf. In addition to the freaky artifacts, there are interactive experiences like you have never experienced.https://freetoursbyfoot.com/ripleys-believe-it-or-not-nyc/</description>
+        <styleUrl>#icon-seq2-1-0-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9888515,40.756359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Intrepid Sea, Air & Space Museum]]></name>
+        <description><![CDATA[The Intrepid Sea, Air & Space Museum is the only museum in the world where visitors can experience a legendary aircraft carrier, the first space shuttle, the world’s fastest jets, and a guided missile submarine.<br><br>The museum’s mission to promote the awareness and understanding of history, science, and service through its collections, exhibitions, and programming to honor American heroes and to educate the public. https://freetoursbyfoot.com/discounts-on-intrepid-sea-air-and-space-museum/]]></description>
+        <styleUrl>#icon-seq2-1-1-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9996076,40.7645266,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Top of the Rock</name>
+        <description>Top of the Rock is located 850 feet (260 m) above street level and has been offering stunning panoramas of the city since 1933 that include Central Park and the Empire State Building and more. When you arrive at Top of the Rock, you’ll discover several exhibits on your way to the three observation decks. These exhibits, (with the exception of the Joie Chandelier), are only accessible on your way to the top. You cannot reenter to see these exhibits so enjoy them along the way. https://freetoursbyfoot.com/top-of-the-rock-tickets/#exhibits</description>
+        <styleUrl>#icon-seq2-1-2-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9799726,40.7593755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[M&M'S World]]></name>
+        <styleUrl>#icon-seq2-1-3-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9843601,40.7601999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Gulliver's Gate]]></name>
+        <styleUrl>#icon-seq2-1-4-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.986995,40.757584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The LEGO Store</name>
+        <styleUrl>#icon-seq2-1-5-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.97806,40.758666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Dylan's Candy Bar]]></name>
+        <styleUrl>#icon-seq2-1-6-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9658384,40.7622095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nintendo Store</name>
+        <styleUrl>#icon-seq2-1-7-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.979444,40.7580463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central Park Belvedere Castle
+</name>
+        <description>This small castle offers sightseers breathtakingly, picturesque views of Central Park. Designed in 1869 as a lookout by Central Park’s co-designer Calvert Vaux and Jacob Wrey Mould, the structure sits on Vista Rock, nestled next to the serene Turtle Pond and famous Delcort Theater. The Italian translation of the castle’s name “beautiful view” defines its purpose. The building itself is a fantasy structure, built with schist and granite, with the intention of being a nature observatory. Its two balconies overlook the Ramble to the south and the Great Lawn (once the location of the city’s reservoir) to the north.https://freetoursbyfoot.com/central-park-belvedere-castle/</description>
+        <styleUrl>#icon-seq2-1-8-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9690907,40.7794748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central Park Zoo</name>
+        <description><![CDATA[Seeing all the parts of the zoo with a Total Experience ticket will take an hour or two. When you enter the zoo the first thing you see is the Sea Lions, which are an entertaining bunch. After the sea lions, you can either head to the Penguins and Seabirds or the Tropic Zone. The Tropic Zone is impressive, allowing you to enter the habitat with an array of tropical birds that can fly inches away from you and land within arm’s reach. <br>Further into the zoo, you will find the Temperate Territory, where you can find the snow monkeys, red pandas, snow leopards, and much more.        https://freetoursbyfoot.com/central-park-zoo/#what]]></description>
+        <styleUrl>#icon-seq2-1-9-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9718335,40.767778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Statue of Liberty National Monument</name>
+        <description><![CDATA[Lady Liberty has been a symbol of freedom and Americana for many generations. Chances are that your children are at least familiar with this monument, and they may have even seen it in cartoons or films such as X-men and National Treasure.<br><br>If you want to give your kids the opportunity to see this historic landmark up close and personal, there is actually a cruise company which will take you to Liberty Island. While on the cruise to and from the island, you can enjoy the view of NYC’s iconic skyline.                https://freetoursbyfoot.com/how-to-get-to-the-statue-of-liberty/]]></description>
+        <styleUrl>#icon-seq2-1-10-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0445004,40.6892494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Theater District</name>
+        <description>Come and take a self-guided tour of Broadway Theatre District. This tour covers some of the major theaters in Manhattan’s Theater District. This tour will take you anywhere from 1 hr 30 min to 2 hrs in length.                                                 https://freetoursbyfoot.com/broadway-and-the-theater-district-tour/</description>
+        <styleUrl>#icon-seq2-1-11-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9833203,40.7617748,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Empire State Building Observatory</name>
+        <description>There are two viewing platforms: the more popular and cheaper one is on the 86th Floor and the more private and expensive one is on the 102nd Floor. When you enter the lobby from 5th Avenue, take a moment to take in the beautiful Art Deco design made from imported marble from Germany, France, Belgium, and Italy. If you already purchased your tickets, you can take the elevator up right away. If you have not, take the escalator on your right side up to the ticket booths. Once you got the tickets you will walk through some featured exhibitions and then take up the first elevators to the 80th Floor. The elevator ride will take 60 seconds. To avoid standing in line for the second elevator again, you might have the option to walk up the 6 flights of stairs and get your little workout.            https://freetoursbyfoot.com/empire-state-building-tickets/#which</description>
+        <styleUrl>#icon-seq2-1-12-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9857567,40.7485429,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>American Museum of Natural History</name>
+        <description>The 45 exhibit halls in this massive four-floor museum include impressive fossil and gem collections, artifacts of cultures throughout the world, the Hall of Human Origins which explores evolution and prehistoric man, the Hall of Reptiles and Amphibians, and numerous detailed dioramas that include life-size models of the world’s peoples, birds, mammals, and even a rainforest. Also part of the museum is the Rose Center for Earth and Space, which encompasses the Hayden Planetarium and exhibition halls that give visitors a glimpse into the history and nature of the cosmos.                     https://freetoursbyfoot.com/american-museum-of-natural-history-discounts-and-coupons/</description>
+        <styleUrl>#icon-seq2-1-13-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9739882,40.7813241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Metropolitan Museum of Art</name>
+        <description>The Metropolitan Museum of Art includes pieces from several different periods in human history, and chances are that you’ll find at least one display with intriguing artwork.                                 https://freetoursbyfoot.com/metropolitan-museum-of-art-tours/</description>
+        <styleUrl>#icon-seq2-1-14-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.963244,40.7794366,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bronx Zoo</name>
+        <description>With more than 7,000 resident animals showcased over 265 acres, The Bronx Zoo is the largest city zoo in the country! You’ll see a vast array of animals when you visit the Monkey House, Jungle World with an amazing array of animals, the World of Darkness with bats and other nocturnal animals, and the Congo Gorilla Forest. Be sure to catch a Sea Lion and Penguin Feeding!                                                                         https://freetoursbyfoot.com/discounts-for-the-bronx-zoo/</description>
+        <styleUrl>#icon-seq2-1-15-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.8769982,40.8505949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New York Aquarium</name>
+        <description>The New York Aquarium includes exhibits on penguins, sea lions, sharks, and several different kinds of fish. https://freetoursbyfoot.com/new-york-aquarium/#exhibits</description>
+        <styleUrl>#icon-seq2-1-16-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9748754,40.5742632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luna Park</name>
+        <description>In 1903, Luna Park opened and offered an environment more fantastical than funny, evoking a fantasy realm of far-off and exotic lands. Luna featured a circus, the popular Trip to the Moon, a bamboo slide for adults, historical extravaganzas, restaurants, gardens and more. But the most spectacular attraction was Luna itself, a fairy-tale fantasy land lit at night by thousands of electric lights. In 1904 the average daily attendance at Luna Park was 90,000 people.</description>
+        <styleUrl>#icon-seq2-1-17-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9785,40.574275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yankee Stadium Tours</name>
+        <description>https://freetoursbyfoot.com/yankee-stadium-tours/#highlights</description>
+        <styleUrl>#icon-seq2-1-18-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9258111,40.8287407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chinatown</name>
+        <description>New York’s Chinatown is the second oldest Chinatown in the United States. San Francisco has the oldest. In the mid-19th-century, California served as the main entry point to the United States for tens of thousands of Chinese immigrants who came to the US seeking to make a fortune from the Gold Rush of 1848.        https://freetoursbyfoot.com/things-to-do-in-chinatown/#tour  </description>
+        <styleUrl>#icon-seq2-1-19-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9970307,40.7157509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Staten Island Ferry Whitehall Terminal</name>
+        <description><![CDATA[This post is a guide to taking the Staten Island Ferry, a free ferry. We share insider tips such as the best time to take the ferry and where to stand for the best views of the Statue of Liberty and Lower Manhattan. This is #2 on our top 10 free things to do in NYC. https://freetoursbyfoot.com/staten-island-ferry/?utm_source=NYCAttractionsMapSIFerry&utm_medium=referral.]]></description>
+        <styleUrl>#icon-seq2-1-20-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -74.0131497,40.7013948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Madame Tussauds</name>
+        <description>not just a museum with wax figures simply standing there in a row for you to walk by and look at. The figures are displayed in their ‘natural habitat’ lending an additional sense of realism. If you aren’t interested in seeing lifelike replicas of celebrities, then don’t go. But if you’ve ever dreamed of standing next to Justin Timberlake or Eli Manning, this is probably as close as you will get in your lifetime. https://freetoursbyfoot.com/madame-tussauds-new-york-tickets/</description>
+        <styleUrl>#icon-seq2-1-21-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9888338,40.7564269,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

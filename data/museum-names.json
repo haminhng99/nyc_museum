@@ -1,0 +1,310 @@
+[
+  {
+    "id": 1,
+    "name": "Alexander Hamilton U.S. Custom House"
+  },
+  {
+    "id": 2,
+    "name": "American Academy of Arts and Letters"
+  },
+  {
+    "id": 3,
+    "name": "American Folk Art Museum"
+  },
+  {
+    "id": 4,
+    "name": "American Immigration History Center"
+  },
+  {
+    "id": 5,
+    "name": "American Museum of Natural History"
+  },
+  {
+    "id": 6,
+    "name": "American Numismatic Society"
+  },
+  {
+    "id": 7,
+    "name": "Americas Society"
+  },
+  {
+    "id": 8,
+    "name": "Anne Frank Center USA"
+  },
+  {
+    "id": 9,
+    "name": "Asia Society"
+  },
+  {
+    "id": 10,
+    "name": "Audubon Terrace"
+  },
+  {
+    "id": 11,
+    "name": "Children's Museum of Manhattan"
+  },
+  {
+    "id": 12,
+    "name": "Children's Museum of the Arts"
+  },
+  {
+    "id": 13,
+    "name": "The Met Cloisters"
+  },
+  {
+    "id": 14,
+    "name": "Cooper-Hewitt, National Design Museum"
+  },
+  {
+    "id": 15,
+    "name": "Dia at the Hispanic Society"
+  },
+  {
+    "id": 16,
+    "name": "Dia Art Foundation"
+  },
+  {
+    "id": 17,
+    "name": "Drawing Center"
+  },
+  {
+    "id": 18,
+    "name": "Dyckman Farmhouse"
+  },
+  {
+    "id": 19,
+    "name": "East Village History Project"
+  },
+  {
+    "id": 20,
+    "name": "El Museo del Barrio"
+  },
+  {
+    "id": 21,
+    "name": "Ellis Island Museum"
+  },
+  {
+    "id": 22,
+    "name": "Fraunces Tavern Museum"
+  },
+  {
+    "id": 23,
+    "name": "Goethe-Institut New York"
+  },
+  {
+    "id": 24,
+    "name": "Gracie Mansion"
+  },
+  {
+    "id": 25,
+    "name": "Hispanic Society of America Museum"
+  },
+  {
+    "id": 26,
+    "name": "International Center of Photography"
+  },
+  {
+    "id": 27,
+    "name": "Intrepid Sea-Air-Space Museum"
+  },
+  {
+    "id": 28,
+    "name": "Italian American Museum"
+  },
+  {
+    "id": 29,
+    "name": "Jackie Robinson Museum"
+  },
+  {
+    "id": 30,
+    "name": "Jewish Museum"
+  },
+  {
+    "id": 31,
+    "name": "John J. Harvey Fireboat"
+  },
+  {
+    "id": 32,
+    "name": "Madame Tussauds Wax Museum"
+  },
+  {
+    "id": 33,
+    "name": "Merchant's House Museum"
+  },
+  {
+    "id": 34,
+    "name": "Metropolitan Museum of Art (MET)"
+  },
+  {
+    "id": 35,
+    "name": "Mexican Cultural Institute of New York"
+  },
+  {
+    "id": 36,
+    "name": "Morgan Library and Museum"
+  },
+  {
+    "id": 37,
+    "name": "Morris-Jumel Mansion"
+  },
+  {
+    "id": 38,
+    "name": "Mount Vernon Hotel Museum & Garden"
+  },
+  {
+    "id": 39,
+    "name": "Municipal Art Society"
+  },
+  {
+    "id": 40,
+    "name": "Museum of Arts & Design (MAD)"
+  },
+  {
+    "id": 41,
+    "name": "Museum of Biblical Art"
+  },
+  {
+    "id": 42,
+    "name": "Museum of Chinese in America"
+  },
+  {
+    "id": 43,
+    "name": "Museum of Comic and Cartoon Art (MoCCA)"
+  },
+  {
+    "id": 44,
+    "name": "Museum of Jewish Heritage"
+  },
+  {
+    "id": 45,
+    "name": "Museum of Modern Art (MoMA)"
+  },
+  {
+    "id": 46,
+    "name": "Museum of the City of New York"
+  },
+  {
+    "id": 47,
+    "name": "National Academy Museum"
+  },
+  {
+    "id": 48,
+    "name": "National Museum of the American Indian"
+  },
+  {
+    "id": 49,
+    "name": "National September 11 Memorial & Museum"
+  },
+  {
+    "id": 50,
+    "name": "Neue Galerie New York"
+  },
+  {
+    "id": 51,
+    "name": "New York City Police Museum"
+  },
+  {
+    "id": 52,
+    "name": "New York Historical Society"
+  },
+  {
+    "id": 53,
+    "name": "Nicholas Roerich Museum"
+  },
+  {
+    "id": 54,
+    "name": "Paley Center For Media (formerly Museum Of Television & Radio)"
+  },
+  {
+    "id": 55,
+    "name": "Rose Center for Earth and Space (Hayden Planetarium)"
+  },
+  {
+    "id": 56,
+    "name": "Rose Museum at Carnegie Hall"
+  },
+  {
+    "id": 57,
+    "name": "Rubin Museum of Art"
+  },
+  {
+    "id": 58,
+    "name": "Scandinavia House: The Nordic Center in America"
+  },
+  {
+    "id": 59,
+    "name": "Schomburg Center for Research in Black Culture"
+  },
+  {
+    "id": 60,
+    "name": "School of Visual Arts Museum"
+  },
+  {
+    "id": 61,
+    "name": "Skyscraper Museum"
+  },
+  {
+    "id": 62,
+    "name": "Solomon R. Guggenheim Museum"
+  },
+  {
+    "id": 63,
+    "name": "Sony Wonder Technology Lab"
+  },
+  {
+    "id": 64,
+    "name": "South Street Seaport Museum"
+  },
+  {
+    "id": 65,
+    "name": "Tenement Museum"
+  },
+  {
+    "id": 66,
+    "name": "The Freakatorium, El Museo Loco"
+  },
+  {
+    "id": 67,
+    "name": "The Jazz Museum in Harlem"
+  },
+  {
+    "id": 68,
+    "name": "The Museum at FIT"
+  },
+  {
+    "id": 69,
+    "name": "Theodore Roosevelt Birthplace"
+  },
+  {
+    "id": 70,
+    "name": "Ukrainian Museum"
+  },
+  {
+    "id": 71,
+    "name": "Whitney Museum of American Art"
+  },
+  {
+    "id": 72,
+    "name": "Leo Baeck Institute"
+  },
+  {
+    "id": 73,
+    "name": "American Sephardi Federation / Sephardic House"
+  },
+  {
+    "id": 74,
+    "name": "YIVO Institute for Jewish Research"
+  },
+  {
+    "id": 75,
+    "name": "American Jewish Historical Society"
+  },
+  {
+    "id": 76,
+    "name": "Yeshiva University Museum"
+  },
+  {
+    "id": 77,
+    "name": "Center For Jewish History"
+  }
+]
