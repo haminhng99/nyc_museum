@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Museum Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="texture-overlay"></div>
+  <div class="intro">
+    <h1>Manhattan Museum Crawl</h1>
+    <div class="body-wrapper">
+      <b>New York City is home to a wide range of museums—many just a short walk or subway ride apart. Use this map to explore museums across Manhattan and see what’s nearby, from popular destinations, galleries, to hotels and transit options. Whether you’re planning a visit or just curious, this map helps you uncover what’s around each museum at a glance.</b>
+    </div>
+  </div>
+  <hr class="dotted-line" />
+  <div class="content-wrapper">
+    <div class="filter-wrapper">
+      <div class="genre-wrapper">
+        <div id="filters-primary" class="genre-row"></div>
+        <button id="toggle-filters" aria-label="Toggle Filters"></button>
+        <div id="filters-more" class="filters-row"></div>
+      </div>
+      <div class="time-price-wrapper">
+        <div class="price-wrapper">
+          <div class="price-label">Price</div>
+          <div class="price-slider-container">
+            <input type="range" min="0" max="50" value="0" id="min-price" step="1">
+            <input type="range" min="0" max="50" value="50" id="max-price" step="1">            
+            <div class="price-slider-track"></div>
+          </div>
+        </div>
+        <div class="price-wrapper">
+          <div class="price-label">Time</div>
+          <div class="price-slider-container" id="time-slider-container">
+            <input type="range" min="0" max="24" value="0" id="min-time" step="1">
+            <input type="range" min="0" max="24" value="24" id="max-time" step="1">            
+            <div class="time-slider-track"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map-container">
+      <div id="map"></div>
+    </div>
+  </div>
+
+  <!-- JS Libraries -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script src="https://unpkg.com/leaflet.groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.js"></script>
+
+  <!-- Toggle Button Script -->
+  <script>
+    const toggleBtn = document.getElementById('toggle-filters');
+    const moreDiv = document.getElementById('filters-more');
+    toggleBtn.addEventListener('click', () => {
+      moreDiv.classList.toggle('show');
+      const isExpanded = moreDiv.classList.contains('show');
+      toggleBtn.style.backgroundImage = isExpanded ? "url('assets/icons/minus.svg')" : "url('assets/icons/plus.svg')";
+    });
+  </script>
+
+  <!-- Main Map Script -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,595 @@
+.texture-overlay {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/paper.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  opacity: 0.4;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 400; 
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #FFFEF4;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.5em;
+  margin: 0.5em 0;
+  font-family: "DM Mono", monospace;
+  color: #8874E3;
+}
+b{
+  text-align: center;
+  font-weight: 400;
+  margin: 0.5em 0;
+  font-family: "DM Mono", monospace;
+  color: #453c6f;
+}
+.dotted-line {
+  border: none;
+  height: 2px;
+  background-image: radial-gradient(circle, #8874E3 1px, transparent 1px);
+  background-size: 10px 2px;
+  background-repeat: repeat-x;
+  background-position: center;
+  width: 95%;
+  margin: 1em auto;
+}
+.intro {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.body-wrapper{
+  width: 50%;
+  margin-left: auto;
+  padding: 20px;
+
+}
+.content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.filter-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.genre-wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: auto;
+  align-self: flex-start; 
+  margin-top: auto;
+}
+
+
+
+.genre-row {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.genre-row button {
+  font-family: "DM Mono", monospace;
+  flex: 1;
+  text-align: center;
+  padding: 0.75em 0.5em;
+  font-size: 0.95em;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px 10px 0 0;
+  transition: background-color 0.2s;
+  font-weight: 600;
+}
+
+.genre-row button:nth-child(1) {
+  background-color: #8874E3;
+  color: white;
+  border-color: #8874E3;
+}
+.genre-row button:nth-child(2) {
+  background-color: #E08AD1;
+  color: white;
+  border-color: #E08AD1;
+}
+.genre-row button:nth-child(3) {
+  background-color: #35B09D;
+  color: white;
+  border-color: #35B09D;
+}
+.genre-row button:nth-child(4) {
+  background-color: #F4B440;
+  color: white;
+  border-color: #F4B440;
+}
+
+
+#toggle-filters {
+  width: 38px;
+  height: 38px;
+  background-color: #F56542;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-image: url('assets/icons/plus.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 16px;
+  margin: 0 10px 0 10px;
+}
+
+
+#filters-more {
+  position: absolute;
+  top: 100%;
+  right: 1rem;
+  background: #F56542;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 0.5rem;
+  z-index: 10;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+  width: 30%;
+  min-width: 160px;
+  max-width: 300px;
+  box-sizing: border-box;
+
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+}
+
+#filters-more.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+
+#filters-more button {
+  font-family: "DM Mono", monospace;
+  background-color: #F56542;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+  font-weight: 600;
+  font-size: 0.95em;
+  padding: 0.75em 2.5em 0.75em 0.5em;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0;
+  position: relative;
+}
+
+
+#filters-more button::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  background-image: url('assets/icons/arrow_r.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transform: translateY(-50%);
+}
+
+
+#filters-more button:last-child {
+  border-bottom: none;
+}
+
+
+.map-container {
+  width: 100%;
+  height: 90vh;
+  background-color: #8874E3;
+  border-radius: 20px;
+  box-shadow: -4px 4px 20px rgba(56, 61, 99, 0.25);
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  transition: background-color 0.4s ease;
+}
+
+#map {
+  width: 98%;
+  height: 98%;
+  border-radius: 12px;
+  z-index: 0;
+}
+
+.leaflet-popup-content strong {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 0.4em;
+}
+
+.leaflet-popup-content strong {
+  font-weight: 500; 
+}
+/* CLUSTERS */
+/* Small */
+.marker-cluster-small {
+  background-color: rgba(209, 198, 255, 0.3) !important; 
+}
+.marker-cluster-small div {
+  background-color: #D1C6FF !important; 
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 500;
+}
+
+/* Med */
+.marker-cluster-medium {
+  background-color: rgba(178, 161, 253, 0.3) !important;
+}
+.marker-cluster-medium div {
+  background-color: #B2A1FD !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 500;
+}
+
+/* Large */
+.marker-cluster-large {
+  background-color: rgba(136, 116, 227, 0.3) !important;
+}
+.marker-cluster-large div {
+  background-color: #8874E3 !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 500;
+}
+
+/* Small */
+.marker-cluster-cafe-small {
+  background-color: rgba(255, 224, 182, 0.3) !important;
+}
+.marker-cluster-cafe-small div {
+  background-color: #FFC685 !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 500;
+}
+
+/* Medium */
+.marker-cluster-cafe-medium {
+  background-color: rgba(255, 197, 133, 0.3) !important;
+}
+.marker-cluster-cafe-medium div {
+  background-color: #FFA94D !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 500;
+}
+
+/* Large */
+.marker-cluster-cafe-large {
+  background-color: rgba(255, 169, 77, 0.3) !important;
+}
+.marker-cluster-cafe-large div {
+  background-color: #FF8030 !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 500;
+}
+.marker-cluster-cafe-small div,
+.marker-cluster-cafe-medium div,
+.marker-cluster-cafe-large div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 500;
+  border-radius: 50%;
+}
+
+
+
+.time-price-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: auto;
+  padding: 10px;
+  max-width: 320px;
+  width: 100%;
+}
+
+/* FILTERS */
+.time-wrapper {
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.price-wrapper {
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.price-label {
+  white-space: nowrap;
+  font-size: 0.95rem;
+}
+
+.price-slider-container {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.price-slider-container input[type="range"] {
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: none;
+}
+
+#min-price {
+  z-index: 2;
+}
+#max-price {
+  z-index: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: all;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #8874E3;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6px;
+}
+
+.price-slider-track {
+  height: 4px;
+  background: linear-gradient(to right, #ddd, #8874E3, #ddd);
+  border-radius: 10px;
+  position: relative;
+  z-index: 0;
+}
+
+.price-values {
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+  color: #333;
+}
+.time-slider-track {
+  height: 4px;
+  background: linear-gradient(to right, #ddd, #8874E3, #ddd);
+  border-radius: 10px;
+  position: relative;
+  z-index: 0;
+}
+
+#min-time {
+  z-index: 2;
+}
+#max-time {
+  z-index: 1;
+}
+.leaflet-control-layers {
+  font-family: "DM Mono", monospace;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.leaflet-control-layers label {
+  margin-bottom: 4px;
+  display: block;
+  cursor: pointer;
+}
+
+.leaflet-control-layers-expanded {
+  background: #fffef4;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 8px 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.custom-cluster-wrapper {
+  background-color: rgba(102, 199, 233, 0.6); /* semi-transparent fill */
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 40px;
+  border: 2px solid #66C7E9;
+  box-shadow: 0 0 0 2px white;
+}
+
+.custom-cluster {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #66C7E9, #A2E1F3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* BUS Cluster Styling */
+.marker-cluster-bus-small {
+  background-color: rgba(163, 217, 255, 0.3) !important;
+}
+.marker-cluster-bus-small div {
+  background-color: #60C0FF !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.marker-cluster-bus-medium {
+  background-color: rgba(96, 192, 255, 0.3) !important;
+}
+.marker-cluster-bus-medium div {
+  background-color: #2090E0 !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.marker-cluster-bus-large {
+  background-color: rgba(32, 144, 224, 0.3) !important;
+}
+.marker-cluster-bus-large div {
+  background-color: #006BB3 !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.marker-cluster-gallery-small {
+  background-color: rgba(224, 138, 209, 0.3) !important;
+}
+.marker-cluster-gallery-small div {
+  background-color: #E08AD1 !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.marker-cluster-gallery-medium {
+  background-color: rgba(224, 138, 209, 0.4) !important;
+}
+.marker-cluster-gallery-medium div {
+  background-color: #D070BF !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.marker-cluster-gallery-large {
+  background-color: rgba(224, 138, 209, 0.5) !important;
+}
+.marker-cluster-gallery-large div {
+  background-color: #B85AA9 !important;
+  color: white !important;
+  font-family: "DM Mono", monospace !important;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.leaflet-control.legend {
+  background: #FFFEF4;
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  font-family: 'DM Mono', monospace;
+  font-size: 1em;
+  line-height: 1.4em;
+  max-width: 200px;
+}
+
